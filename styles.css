@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin-top: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 2em;
+}
+
+#grid-container {
+    width: 480px;
+    height: 480px;
+    border: 1px solid rgb(117, 117, 117);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button-container {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.reset-button {
+    border: none;
+    margin: auto 5px;
+    padding: 2em;
+    outline: none;
+    background-color: rgb(204, 204, 204);
+}
+
+.reset-button:hover {
+    background-color: rgb(117, 117, 117);
+}
